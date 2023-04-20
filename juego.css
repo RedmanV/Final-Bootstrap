@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0%;
+    padding: 0%;
 }
 
 @font-face {
@@ -13,15 +13,20 @@
     src: url(./Típografias/DharmaSlabE-Regular.ttf);
 }
 
-p{
+p {
     font-family: Dosis;
 }
 
-h1{
+h1 {
     font-family: Dharma;
+    color: white;
 }
 
-.encabezado{
+.menu {
+    font-size: 15pt;
+}
+
+.encabezado {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -29,73 +34,73 @@ h1{
     font-family: Dosis;
 }
 
-.navbar{
+.navbar {
     text-decoration: none;
     color: black;
     margin: 30px
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #37A836 !important;
 }
 
-.d-flex{
+.d-flex {
     align-items: center;
 }
 
-.logo{
+.logo {
     width: 60px;
 }
 
-.row-1{
-    background-color: #b9b9b9;
-    margin: 1rem;
+.row-1 {
+    background-color: #686868;
+    margin: 0;
 }
 
-.relojera{
+.relojera {
     width: 250px;
     height: 600px;
     margin: 1rem;
     transition: .3s;
 }
 
-.relojera:hover{
+.relojera:hover {
     background-color: #fff;
     border-radius: 1rem;
     transform: scale(0.9);
 }
 
-.relojero{
+.relojero {
     width: 200px;
     height: 600px;
     margin: 1rem;
     transition: .3s;
 }
 
-.relojero:hover{
+.relojero:hover {
     background-color: #fff;
     border-radius: 1rem;
     transform: scale(0.9);
 }
 
-.julian{
+.julian {
     width: 200px;
     height: 600px;
     margin: 1rem;
     transition: .3s;
 }
 
-.julian:hover{
+.julian:hover {
     background-color: #fff;
     border-radius: 1rem;
     transform: scale(0.9);
 }
 
-h1{
+h1 {
     font-family: Dharma;
 }
 
-.btn-game{
+.btn-game {
     margin: 2rem auto;
     font-family: Dosis;
     font-size: 30px;
@@ -110,82 +115,74 @@ h1{
     color: white;
     cursor: pointer;
     box-shadow: 0 0 10px rgb(0, 0, 0.1);
-    -webkit-transition-duration: 0,3s;
+    -webkit-transition-duration: 0, 3s;
     transition-duration: 0.3s;
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
 }
 
-.btn-game:hover, .btn-game:focus .btn-game:active{
+.btn-game:hover,
+.btn-game:focus .btn-game:active {
     box-shadow: 0 0 20px rgb(0, 0, 0.5);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     color: white;
 }
 
-.pie-pag{
+.pie-pag {
     width: 100%;
     background-color: #b9b9b9;
     color: rgb(19, 19, 19);
 }
 
-.pie-pag .grupo-1{
-    width: 100%;
-    height: 150px;
-    max-width: 50%;
-    margin: auto;
-    display: grid;
-    grid-gap: 50px;
-    padding: 45px 0px ;
+.box {
+    margin: 1rem;
+    width: 50%;
     display: flex;
-    align-items: center;
+    justify-content: end;
+}
+
+.box-2 {
+    margin: 1rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-1 {
+    display: flex;
+}
+
+.LogoFoot {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
 }
 
 .logo-footer {
     width: 50px;
 }
 
-.pie-pag .grupo-1 .red-social a{
-    display: inline-block;
-    text-decoration: none ;
-    width: 39px;
-    height: 41px;
-    line-height:45px;
-    color: #ffff;
-    background-color: #242424;
-    text-align: center;
-    transition: all 300ms ease;
-}
-
 .pie-pag .grupo-1 .red-social a:hover {
     color: #37A836;
 }
 
-.red-social{
+.red-social {
     display: flex;
-    justify-content: center;
 }
 
-.fa{
-    margin: 10px;
-}
-
-.box{
-    width: 50%;
-    text-align: center;
-}
-
-h4{
+h4 {
     font-family: Dharma;
+    margin-left: 45px;
 }
 
-.pie-pag .grupo-2{
+.pie-pag .grupo-2 {
     background-color: #686868;
     padding: 15px 10px;
     text-align: center;
     color: #ffff;
 }
 
-.pie-pag .grupo-2 small{
+.pie-pag .grupo-2 small {
     font-size: 15PX;
 }

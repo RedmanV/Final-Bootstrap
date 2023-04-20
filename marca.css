@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0%;
+    padding: 0%;
 }
 
 @font-face {
@@ -13,15 +13,23 @@
     src: url(./Típografias/DharmaSlabE-Regular.ttf);
 }
 
-p{
+p {
     font-family: Dosis;
 }
 
-h1{
+h1 {
     font-family: Dharma;
 }
 
-.encabezado{
+h3{
+    font-family: Dharma;
+}
+
+.menu {
+    font-size: 15pt;
+}
+
+.encabezado {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -29,90 +37,95 @@ h1{
     font-family: Dosis;
 }
 
-.navbar{
+.navbar {
     text-decoration: none;
     color: black;
     margin: 30px
 }
 
-.nav-link:hover{
-    color: #37A836 !important;
+.nav-link:hover {
+    color: #f4d347 !important;
 }
 
-.d-flex{
+.d-flex {
     align-items: center !important;
-} 
+}
 
-.logo{
+.logo {
     width: 60px;
 }
 
-.home{
+.home {
     display: flex;
     flex-wrap: wrap;
 }
 
-.row-1{
+.row-1 {
     background-color: #e4e4e4;
-    margin: 1rem;
-    border-radius: 0 20px 0 20px;
+    margin: 0;
 }
 
-.img-1{
+.img-1 {
     width: 400px;
 }
 
-.logo-img{
+.logo-img {
     width: 200px;
     display: flex;
     justify-content: center;
 }
 
-.title-2{
-    color: rgb(230, 0, 0);
+.title-2 {
+    color: #D32424;
 }
 
-.sub-title-1{
-    color: yellow;
+.sub-title-1 {
+    color: #f4d347;
     font-family: Dharma;
 }
 
-.accordion{
+.accordion {
     width: 500px;
 }
 
-.parrafo-2{
+.parrafo-2 {
     width: 70%;
 }
 
-.sub-title-2{
-    color: #37A836;     
+.sub-title-2 {
+    color: #37A836;
 }
 
-.accordion-body{
+.accordion {
+    margin: 1rem;
+}
+
+.accordion-body {
     font-family: Dosis;
 }
 
-.integrantes{
+.integrantes {
     background-color: #e4e4e4;
-    margin: 2rem;
+    margin: 1rem 0;
 }
 
-.c3{
+.c3 {
     justify-content: center;
 }
 
-.title-3{
+.title-3 {
     text-align: center;
 }
 
-.Mariana{
+.Mariana {
     width: 300px;
     height: 350px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(0, 0, 0.1);
 }
 
-.btn-1{
-    background-color: rgb(230, 0, 0);
+.btn-1 {
+    background-color: #D32424;
     color: white;
     border-radius: 5px;
     border: none;
@@ -123,8 +136,8 @@ h1{
     font-family: Dosis;
 }
 
-.btn-2{
-    background-color: rgb(208, 208, 7);
+.btn-2 {
+    background-color: #f4d347;
     color: white;
     border-radius: 5px;
     border: none;
@@ -135,7 +148,7 @@ h1{
     font-family: Dosis;
 }
 
-.btn-3{
+.btn-3 {
     background-color: #37A836;
     color: white;
     border-radius: 5px;
@@ -148,83 +161,78 @@ h1{
 }
 
 
-.Emmanuel{
+.Emmanuel {
     width: 300px;
     height: 350px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(0, 0, 0.1);
 }
 
-.Manuela{
+.Manuela {
     width: 300px;
     height: 350px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(0, 0, 0.1);
 }
 
-.modal-body{
+.modal-body {
     font-family: Dosis;
 }
 
-.pie-pag{
+.pie-pag {
     width: 100%;
     background-color: #b9b9b9;
     color: rgb(19, 19, 19);
 }
 
-.pie-pag .grupo-1{
-    width: 100%;
-    height: 150px;
-    max-width: 50%;
-    margin: auto;
-    display: grid;
-    grid-gap: 50px;
-    padding: 45px 0px ;
+.box {
+    margin: 1rem;
+    width: 50%;
     display: flex;
-    align-items: center;
+    justify-content: end;
+}
+
+.box-2 {
+    margin: 1rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-1 {
+    display: flex;
+}
+
+.LogoFoot {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
 }
 
 .logo-footer {
     width: 50px;
 }
 
-.pie-pag .grupo-1 .red-social a{
-    display: inline-block;
-    text-decoration: none ;
-    width: 39px;
-    height: 41px;
-    line-height:45px;
-    color: #ffff;
-    background-color: #242424;
-    text-align: center;
-    transition: all 300ms ease;
-}
-
 .pie-pag .grupo-1 .red-social a:hover {
     color: #37A836;
 }
 
-.red-social{
+.red-social {
     display: flex;
-    justify-content: center;
 }
 
-.fa{
-    margin: 10px;
-}
-
-.box{
-    width: 50%;
-    text-align: center;
-}
-
-h4{
+h4 {
     font-family: Dharma;
+    margin-left: 45px;
 }
 
-.pie-pag .grupo-2{
+.pie-pag .grupo-2 {
     background-color: #686868;
     padding: 15px 10px;
     text-align: center;
     color: #ffff;
 }
 
-.pie-pag .grupo-2 small{
+.pie-pag .grupo-2 small {
     font-size: 15PX;
 }

@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0%;
+    padding: 0%;
 }
 
 @font-face {
@@ -13,15 +13,19 @@
     src: url(./Típografias/DharmaSlabE-Regular.ttf);
 }
 
-p{
+p {
     font-family: Dosis;
 }
 
-h1{
+h1 {
     font-family: Dharma;
 }
 
-.encabezado{
+.menu {
+    font-size: 15pt;
+}
+
+.encabezado {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -29,60 +33,65 @@ h1{
     font-family: Dosis;
 }
 
-.navbar{
+.navbar {
     text-decoration: none;
     color: black;
     margin: 30px
 }
 
-.nav-link:hover{
-    color: #37A836 !important;
+.nav-link:hover {
+    color: #D32424 !important;
 }
 
-.d-flex{
-    align-items: center;
+.d-flex {
+    align-items: center !important;
 }
 
-.logo{
+.logo {
     width: 60px;
 }
 
-.carusel{
-    height: 500px;
+.home {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.carousel-caption{
+.carusel {
+    height: 600px;
+    margin: 0;
+}
+
+.carousel-caption {
     background-color: rgba(0, 0, 0, 0.463);
     width: 500px;
     height: 150px;
     text-align: center;
-    margin: 0px auto 20px ;
+    margin: 0px auto 20px;
 }
 
-h1{
+h1 {
     text-align: center;
     margin: 2rem;
     font-family: Dharma;
 }
 
-p{
+p {
     text-align: center;
     font-family: Dosis;
 }
 
-.parrafo-1{
+.parrafo-1 {
     margin: 2rem;
+    font-size: 15pt;
 }
 
-
-
-.imgs-h{
+.imgs-h {
     width: 300px;
     height: 290px;
     margin: 1rem;
 }
 
-.c1 figure{
+.c1 figure {
     position: relative;
     height: 350px;
     width: 350px;
@@ -91,13 +100,13 @@ p{
     color: white;
 }
 
-.c1 figure img{
+.c1 figure img {
     width: 100%;
     height: 100%;
     transition: all 500ms ease-out;
 }
 
-.c1 figure .capa{
+.c1 figure .capa {
     position: absolute;
     top: 0;
     width: 96%;
@@ -110,18 +119,18 @@ p{
     text-align: center;
 }
 
- .c1 figure:hover > .capa{
+.c1 figure:hover>.capa {
     opacity: 1;
     visibility: visible;
 }
 
-.c1 figure:hover > .capa h3{
+.c1 figure:hover>.capa h3 {
     margin-top: 70px;
     margin-bottom: 15px;
     font-family: Dharma;
-} 
+}
 
-.c2 figure{
+.c2 figure {
     position: relative;
     height: 350px;
     width: 350px;
@@ -130,13 +139,13 @@ p{
     color: white;
 }
 
-.c2 figure img{
+.c2 figure img {
     width: 100%;
     height: 100%;
     transition: all 500ms ease-out;
 }
 
-.c2 figure .capa{
+.c2 figure .capa {
     position: absolute;
     top: 0;
     width: 96%;
@@ -149,22 +158,22 @@ p{
     text-align: center;
 }
 
- .c2 figure:hover > .capa{
+.c2 figure:hover>.capa {
     opacity: 1;
     visibility: visible;
 }
 
-.c2 figure:hover > .capa h3{
+.c2 figure:hover>.capa h3 {
     margin-top: 70px;
     margin-bottom: 15px;
     font-family: Dharma;
-} 
+}
 
-.c2 figure:hover > .capa p{
+.c2 figure:hover>.capa p {
     margin: 5px;
 }
 
-.c3 figure{
+.c3 figure {
     position: relative;
     height: 350px;
     width: 350px;
@@ -173,13 +182,13 @@ p{
     color: white;
 }
 
-.c3 figure img{
+.c3 figure img {
     width: 100%;
     height: 100%;
     transition: all 500ms ease-out;
 }
 
-.c3 figure .capa{
+.c3 figure .capa {
     position: absolute;
     top: 0;
     width: 96%;
@@ -192,84 +201,79 @@ p{
     text-align: center;
 }
 
- .c3 figure:hover > .capa{
+.c3 figure:hover>.capa {
     opacity: 1;
     visibility: visible;
 }
 
-.c3 figure:hover > .capa h3{
+.c3 figure:hover>.capa h3 {
     margin-top: 70px;
     margin-bottom: 15px;
     font-family: Dharma;
-} 
+}
 
-.c3 figure:hover > .capa p{
+.c3 figure:hover>.capa p {
     margin: 5px;
 }
 
-.pie-pag{
+.row-2{
+    margin: 0;
+}
+
+.pie-pag {
     width: 100%;
     background-color: #b9b9b9;
     color: rgb(19, 19, 19);
 }
 
-.pie-pag .grupo-1{
-    width: 100%;
-    height: 150px;
-    max-width: 50%;
-    margin: auto;
-    display: grid;
-    grid-gap: 50px;
-    padding: 45px 0px ;
+.box {
+    margin: 1rem;
+    width: 50%;
     display: flex;
-    align-items: center;
+    justify-content: end;
+}
+
+.box-2 {
+    margin: 1rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-1 {
+    display: flex;
+}
+
+.LogoFoot {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
 }
 
 .logo-footer {
     width: 50px;
 }
 
-.pie-pag .grupo-1 .red-social a{
-    display: inline-block;
-    text-decoration: none ;
-    width: 39px;
-    height: 41px;
-    line-height:45px;
-    color: #ffff;
-    background-color: #242424;
-    text-align: center;
-    transition: all 300ms ease;
-}
-
 .pie-pag .grupo-1 .red-social a:hover {
     color: #37A836;
 }
 
-.red-social{
+.red-social {
     display: flex;
-    justify-content: center;
 }
 
-.fa{
-    margin: 10px;
-}
-
-.box{
-    width: 50%;
-    text-align: center;
-}
-
-h4{
+h4 {
     font-family: Dharma;
+    margin-left: 45px;
 }
 
-.pie-pag .grupo-2{
+.pie-pag .grupo-2 {
     background-color: #686868;
     padding: 15px 10px;
     text-align: center;
     color: #ffff;
 }
 
-.pie-pag .grupo-2 small{
+.pie-pag .grupo-2 small {
     font-size: 15PX;
 }
